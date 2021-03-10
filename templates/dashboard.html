@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <style>
+
+        body {
+            background-image: url("assets/dashboardBG.jpg");
+            background-size: cover;
+            
+        }
+       .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+        .button {
+            border: none;
+            color: rgb(75, 100, 212);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+
+        .button1 {
+            background-color: #ffffff;
+        }
+
+        p {
+            padding: 0px 70px 0px 90px;
+        }
+
+
+        .tile_div a {
+            display: block;
+            float: left;
+            height: 50px;
+            width: 100px;
+            margin-right: 5px;
+            background-image: url(./images/button_left.png);
+            text-align: center;
+            line-height: 50px;
+            text-decoration: none;
+        }
+
+        .title_div a.last {
+            margin-right: 0;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    
+    <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+    <h1 style="color: gold; font-family:courier;font-size:300%;text-align:center;">DashBoard</h1>
+    <p><br><br><br><br></p>
+    <h2 style="color: aliceblue; font-family:courier;font-size:200%;text-align:center;">Disease Predictor</h2>
+    <p><br><br><br><br></p>
+    <div class="col s4">
+        <form action="/breast"><button class="button button1"style="margin:5%;">Breast Cancer Predictor</button></form></div><div class="col s4">
+        <form action="/parkin"><button class="button button1"style="margin:5%;">Parkinson's Disease Predictor</button></form></div><div class="col s4">
+        <form action="/heart"><button class="button button1"style="margin:5%;">Heart Disease Predictor</button></form>
+    </div>
+</body>
+
+</html>
