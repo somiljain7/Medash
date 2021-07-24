@@ -1,7 +1,8 @@
-# Medash
-medical dashboard for disease detection
+# ` Medash `
 
-Technologies used for this application:
+**medical dashboard for disease detection**
+
+# `Technologies used for this application:`
 - Python
 - Flask
 - HTML
@@ -9,10 +10,10 @@ Technologies used for this application:
 - BOOTSTRAP
 
 
-Steps to run this dashboard:
+# `Steps to run this dashboard:`
 
 ```bash
-install all requiements mentioned in requirements.txt
+$ pip3 install -r requirements.txt 
 ```
 
 ``` bash
@@ -23,5 +24,4 @@ python app.py
 # Known Issue
  Currently, WORK IN PROGRESS Feel free to open an issue if any!
 
-# License
->  MIT License
+# `feel free to contribute :)`
